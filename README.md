@@ -28,7 +28,7 @@ git add README.md
 git commit -m "first commit"
 git status
 git branch -M main
-git remote add origin https://github.com/AdiBhushan10/End2End-LLM-Project-Deploy-Using-MLFlow.git
+git remote add origin https://github.com/AdiBhushan10/End2End-LLM-NLP-Deploy-Using-MLFlow.git
 git remote -v
 2. Setup Git global for first time user: user.name and user.email commands to check if registered, else register as
 git config --global user.name "AdyBhushan10"
