@@ -38,7 +38,15 @@ git push -u origin main --force
 4. In case when local file is changed, to recommit changes to remote repo:
 git add .
 git commit -m "second commit"
-git push --set-upstream origin main
+git push --set-upstream origin OR git push --force origin HEAD:master
+
+#Just follow next steps in console terminal 
+git init	#Initialize git in folder
+git add .	#add all files of folder to be pushed
+git commit -m "First commit"	#add first commit
+git remote add origin remote_repository_URL #replace with your remote repo url
+git remote -v	#verify that your remote repository url is properly found
+git push --force origin HEAD:master	#force pushing your project into github repo
 
 To able package your model as an application, create setup.py. This file describes our model to Distutils function.
 
